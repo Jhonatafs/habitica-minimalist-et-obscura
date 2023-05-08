@@ -1,5 +1,5 @@
-### Habitica minimalist et obscura
+## Habitica minimalist et obscura
 Habitica.com website stylesheet customization.
-### Changes:
+#### Changes:
 - dark theme.
 - hidden gamification.
