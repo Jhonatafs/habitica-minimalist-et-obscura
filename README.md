@@ -1,2 +1,4 @@
-## Habitica minimalist et obscura
+## Habitica
+#### minimalist et obscura
+
 ### Habitica.com website stylesheet customization.
