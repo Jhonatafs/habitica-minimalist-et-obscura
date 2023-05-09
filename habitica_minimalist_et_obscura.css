@@ -7,13 +7,6 @@
 ==/UserStyle== */
 
 @-moz-document domain("https://habitica.com/") {
-     :root {
-          --color1:#181818;
-          --color2:#1d1d1d;
-          --color3:#333333;
-          --color4:#432874;
-          
-     }
 
      #habitica-menu,
      .user-tasks-page,
@@ -24,11 +17,6 @@
           background-color: #181818 !important;
     }
 
-     #app-header,
-     .reward {
-          display: none;
-     }
-
      .tasks-list,
      .secondary-menu,
      .standard-sidebar,
@@ -36,7 +24,7 @@
           background-color: #1a1a1a !important;
    }
 
-     .item.item-empty{
+     .item.item-empty {
           background-color: transparent !important;
      }
 
@@ -61,8 +49,11 @@
 
      .navbar-nav li:nth-child(2),
      .navbar-nav li:nth-child(3),
-     .navbar-nav li:nth-child(4) {
-          display: none;
+     .navbar-nav li:nth-child(4),
+     #app-header,
+     .reward,
+     .drawer-container {
+          display: none !important;
      }
 
 @media (min-width: 992px){
