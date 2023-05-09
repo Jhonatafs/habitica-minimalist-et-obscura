@@ -1,0 +1,75 @@
+/* ==UserStyle==
+@name         Habitica minimalist et obscura
+@namespace    github.com/Jhonatafs/habitica-minimalist-et-obscura
+@version      0.9.1
+@license      MIT
+@preprocessor -
+==/UserStyle== */
+
+@-moz-document domain("https://habitica.com/") {
+     :root {
+          --color1:#181818;
+          --color2:#1d1d1d;
+          --color3:#333333;
+          --color4:#432874;
+          
+     }
+
+     #habitica-menu,
+     .user-tasks-page,
+     .task-content,
+     .reward-items .item,
+     .item-rows .item,
+     .btn {
+          background-color: #181818 !important;
+    }
+
+     #app-header,
+     .reward {
+          display: none;
+     }
+
+     .tasks-list,
+     .secondary-menu,
+     .standard-sidebar,
+     .standard-page {
+          background-color: #1a1a1a !important;
+   }
+
+     .item.item-empty{
+          background-color: transparent !important;
+     }
+
+     .column-title,
+     .task-content h1,
+     .task-content h2,
+     .task-content h3,
+     .task-content h4,
+     .sub-header,
+     .dropdown-label {
+          color: #ffffff !important;
+     }
+
+     .task-content h4,
+     .custom-control-label {
+        color: #bdbdbd !important;
+     }
+
+     .pet-progress-background {
+          background-color: #333333 !important;
+     }
+
+     .navbar-nav li:nth-child(2),
+     .navbar-nav li:nth-child(3),
+     .navbar-nav li:nth-child(4) {
+          display: none;
+     }
+
+@media (min-width: 992px){
+          .col-lg-3 {
+               flex: 0 0 33% !important;
+               max-width: 33% !important;
+          }
+     }
+
+}
