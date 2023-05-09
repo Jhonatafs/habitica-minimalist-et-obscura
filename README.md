@@ -1,5 +1,5 @@
-## Habitica minimalist et obscura
-Habitica.com website stylesheet customization.
-#### Changes:
-- dark theme.
-- hidden gamification.
+## [Habitica minimalist et obscura]([https://pages.github.com/](https://userstyles.world/style/9765/habitica-minimalist-et-obscura))
+Habitica.com website stylesheet customization. (Customização da folha de estilos do Habitica.com)
+#### Changes: (Mudanças:)
+- dark theme. (tema escuro)
+- hidden gamification. (esconder a gameficação)
